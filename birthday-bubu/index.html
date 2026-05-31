@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Lavenia 💖</title>
+
+<link rel="stylesheet" href="assets/css/style.css">
+<script defer src="assets/js/script.js"></script>
+</head>
+
+<body>
+
+<!-- MUSIC -->
+<audio id="bgm" loop>
+  <source src="assets/music/music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- MUSIC BUTTON -->
+<button class="music-btn" onclick="toggleMusic()">▶️</button>
+
+<!-- CONFETTI -->
+<canvas id="confetti"></canvas>
+
+<!-- PAGE 1 -->
+<section class="page active" id="page1">
+  <h1 class="title">Happy Birthday My Bubu 🐻💖</h1>
+  <p class="sub">For Lavenia ✨</p>
+
+  <div class="card">
+    <div class="photo-slot">
+      <img class="photo-slot" src="assets/images/0.jpg">
+    </div>
+    <p>Selamat ulang tahun, Sayang!</p>
+    <img class="mini-gif" src="https://media.tenor.com/nSO0F37SSFUAAAAj/bubu-dudu-sseeyall.gif">
+    <p>1 juni 2026</p>
+    </div>
+  <button class="btn" onclick="goPage(2)">A Gift for You 🎁</button>
+</section>
+
+<!-- PAGE 2 -->
+<section class="page" id="page2">
+  <h1 class="title">Happy Birthday Lavenia 🎉</h1>
+  <p class="sub" style="text-align: center;">~from your Man, Dudu 🐼🐻~ </p>
+
+  <div class="timeline">
+    <div class="timeline-img">
+    <img src="assets/images/1.jpg">
+    <img src="assets/images/2.jpg">
+    <img src="assets/images/3.jpg">
+    <img src="assets/images/4.jpg">
+    <img src="assets/images/5.jpg">
+    <img src="assets/images/6.jpg">
+    <img src="assets/images/7.jpg">
+  </div>
+    <div class="card">
+      Selamat Ulang Tahun, Sayang!  Hanya adeklah yang membuat mas mengerti indahnya hidup sejauh. 
+      Semoga yang adek cita-citakan selama segera terwujud dan umur yang diberikan menjadi berkah. <br> Happy Birthday, My Bubu! 🎂💖  Terimakasih, karena telah terlahir di Dunia.
+      <img class="mini-gif" src="https://media.tenor.com/Lgr_6-nkvnUAAAAm/casal-dudu.webp">
+    </div>
+
+  <button class="btn" onclick="goPage(3)">Best Wishes for You 💞</button>
+</section>
+
+<!-- PAGE 3 -->
+<section class="page" id="page3">
+  <h1 class="title">Forever You 💖</h1>
+
+  <div class="heart-frame">
+    <img src="assets/images/love.jpg">
+  </div>
+  <img class="mini-gif" src="https://media.tenor.com/D6HDHJLAqb4AAAAi/dudu-bubu-dudu.gif">
+  <button class="btn" onclick="goPage(1)">
+    Another year of making memories together ✨
+  </button>
+</section>
+
+</body>
+</html>
